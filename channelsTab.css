@@ -1,0 +1,85 @@
+#channelsTab .card{
+	width: 100%;
+}
+
+#channelsTab .cardBox{
+	margin:.1em;
+}
+
+#channelsTab .cardDefaultText{
+	display:none;
+}
+
+
+#channelsTab .cardPadder-square{
+	padding-bottom:30px;
+}
+
+#channelsTab .cardScalable button.cardContent{
+	height: 20px;
+	background-size: auto 100%;
+	width:70px;
+	margin: 5px !important;
+}
+
+#channelsTab .cardScalable button.defaultCardBackground1, #channelsTab .cardScalable button.defaultCardBackground2, #channelsTab .cardScalable button.defaultCardBackground3, #channelsTab .cardScalable button.defaultCardBackground4, #channelsTab .cardScalable button.defaultCardBackground5 {
+    background-color: transparent;
+}
+
+#channelsTab .cardFooter{
+	position: unset;
+	padding:0;
+}
+
+
+#channelsTab .cardFooter .cardText:nth-child(1){
+	position: absolute;
+	left: 80px;
+	top: 0;
+}
+
+#channelsTab .cardFooter .cardText:nth-child(3){
+	position: absolute;
+	right: 390px;
+	top: 5px;
+	width:100px;
+}
+
+#channelsTab .cardFooter .cardText:nth-child(2){
+	position: absolute;
+	right: 140px;
+	top: 5px;
+	width:250px;
+}
+
+#channelsTab .cardOverlayFab-primary {
+    width: inherit;
+    height: inherit;
+    margin-top: inherit;
+    margin-left: inherit;
+    font-size: 88%;
+    top: -5px;
+    right: 79px;
+    position: absolute;
+    left: unset;
+    background-color: transparent;
+    padding:.25em;
+}
+
+#channelsTab .cardOverlayFab-primary:hover {
+    background-color: rgba(0, 164, 220, 0.2);
+    color: #00a4dc;
+    -webkit-transform: unset;
+	transform: unset;
+}
+
+#channelsTab .cardOverlayButton-br {
+	bottom:-5px;
+	top: unset;
+}
+
+@media screen and (max-width: 65em){
+	#channelsTab .cardFooter .cardText:nth-child(2), #channelsTab .cardFooter .cardText:nth-child(3){
+		display:none;
+	}
+}
